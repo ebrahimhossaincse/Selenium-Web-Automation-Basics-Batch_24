@@ -11,13 +11,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseDriver {
 	
-	WebDriver driver;
+	public static WebDriver driver;
 	
 	@BeforeSuite
 	public void startBrowser() {
 		String browser_name = "chrome";
 		
-		if(browser_name.equals("firefox")) {
+		if(browser_name.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
