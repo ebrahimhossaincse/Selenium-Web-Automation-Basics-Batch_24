@@ -17,7 +17,7 @@ public class BaseDriver {
 	public void startBrowser() {
 		String browser_name = "chrome";
 		
-		if(browser_name.equals("chrome")) {
+		if(browser_name.equals("firefox")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();

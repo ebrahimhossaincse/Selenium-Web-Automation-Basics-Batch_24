@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-25T12:03:45 EDT" name="Default suite" finished-at="2024-05-25T12:03:52 EDT" duration-ms="7560">
+  <suite started-at="2024-05-26T11:25:45 EDT" name="Default suite" finished-at="2024-05-26T11:25:45 EDT" duration-ms="52">
     <groups>
     </groups>
-    <test started-at="2024-05-25T12:03:45 EDT" name="Default test" finished-at="2024-05-25T12:03:52 EDT" duration-ms="7560">
-      <class name="com.ebrahim.hossain.OpenUrl">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.ebrahim.hossain.OpenUrl@742ff096]" started-at="2024-05-25T12:03:44 EDT" name="startBrowser" finished-at="2024-05-25T12:03:45 EDT" duration-ms="1281" status="PASS">
+    <test started-at="2024-05-26T11:25:45 EDT" name="Default test" finished-at="2024-05-26T11:25:45 EDT" duration-ms="52">
+      <class name="com.ebrahim.hossain.TestNGExamples">
+        <test-method is-config="true" signature="beforeSuiteExample()[pri:0, instance:com.ebrahim.hossain.TestNGExamples@15043a2f]" started-at="2024-05-26T11:25:45 EDT" name="beforeSuiteExample" finished-at="2024-05-26T11:25:45 EDT" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startBrowser -->
-        <test-method signature="open()[pri:0, instance:com.ebrahim.hossain.OpenUrl@742ff096]" started-at="2024-05-25T12:03:45 EDT" name="open" finished-at="2024-05-25T12:03:52 EDT" duration-ms="7524" status="PASS">
+        </test-method> <!-- beforeSuiteExample -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.ebrahim.hossain.TestNGExamples@15043a2f]" started-at="2024-05-26T11:25:45 EDT" name="beforeTest" finished-at="2024-05-26T11:25:45 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- open -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ebrahim.hossain.OpenUrl@742ff096]" started-at="2024-05-25T12:03:52 EDT" name="closeBrowser" finished-at="2024-05-25T12:03:53 EDT" duration-ms="168" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClassExample()[pri:0, instance:com.ebrahim.hossain.TestNGExamples@15043a2f]" started-at="2024-05-26T11:25:45 EDT" name="beforeClassExample" finished-at="2024-05-26T11:25:45 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.ebrahim.hossain.OpenUrl -->
+        </test-method> <!-- beforeClassExample -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.ebrahim.hossain.TestNGExamples@15043a2f]" started-at="2024-05-26T11:25:45 EDT" name="beforeMethod" finished-at="2024-05-26T11:25:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testExample2()[pri:0, instance:com.ebrahim.hossain.TestNGExamples@15043a2f]" started-at="2024-05-26T11:25:45 EDT" name="testExample2" finished-at="2024-05-26T11:25:45 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExample2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.ebrahim.hossain.TestNGExamples@15043a2f]" started-at="2024-05-26T11:25:45 EDT" name="afterMethod" finished-at="2024-05-26T11:25:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testExample()[pri:1, instance:com.ebrahim.hossain.TestNGExamples@15043a2f]" started-at="2024-05-26T11:25:45 EDT" name="testExample" finished-at="2024-05-26T11:25:45 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExample -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.ebrahim.hossain.TestNGExamples@15043a2f]" started-at="2024-05-26T11:25:45 EDT" name="beforeMethod" finished-at="2024-05-26T11:25:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.ebrahim.hossain.TestNGExamples@15043a2f]" started-at="2024-05-26T11:25:45 EDT" name="afterMethod" finished-at="2024-05-26T11:25:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClassExample()[pri:0, instance:com.ebrahim.hossain.TestNGExamples@15043a2f]" started-at="2024-05-26T11:25:45 EDT" name="afterClassExample" finished-at="2024-05-26T11:25:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassExample -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.ebrahim.hossain.TestNGExamples@15043a2f]" started-at="2024-05-26T11:25:45 EDT" name="afterTest" finished-at="2024-05-26T11:25:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuiteExample()[pri:0, instance:com.ebrahim.hossain.TestNGExamples@15043a2f]" started-at="2024-05-26T11:25:45 EDT" name="afterSuiteExample" finished-at="2024-05-26T11:25:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteExample -->
+      </class> <!-- com.ebrahim.hossain.TestNGExamples -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
