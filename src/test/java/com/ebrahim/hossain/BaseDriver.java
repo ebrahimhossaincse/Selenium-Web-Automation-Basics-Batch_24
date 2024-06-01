@@ -34,7 +34,7 @@ public class BaseDriver {
 	
 	@AfterSuite
 	public void closeBrowser() {
-		driver.close();
+		driver.quit();
 	}
 
 }
