@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ebrahim.hossain.locators.LocateByName">
+      <class name="com.ebrahim.hossain.select.SelectExamples">
         <methods>
           <include name="startBrowser"/>
-          <include name="locateLink"/>
-          <include name="openURL"/>
+          <include name="selectExamples"/>
           <include name="closeBrowser"/>
+          <include name="openURL"/>
         </methods>
-      </class> <!-- com.ebrahim.hossain.locators.LocateByName -->
+      </class> <!-- com.ebrahim.hossain.select.SelectExamples -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
