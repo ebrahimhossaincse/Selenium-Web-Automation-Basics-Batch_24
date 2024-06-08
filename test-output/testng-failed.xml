@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ebrahim.hossain.select.SelectExamples">
+      <class name="com.ebrahim.hossain.iframes.IframeHandling">
         <methods>
-          <include name="startBrowser"/>
-          <include name="selectExamples"/>
-          <include name="closeBrowser"/>
           <include name="openURL"/>
+          <include name="switchToFrame"/>
+          <include name="startBrowser"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.ebrahim.hossain.select.SelectExamples -->
+      </class> <!-- com.ebrahim.hossain.iframes.IframeHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
